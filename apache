@@ -1,0 +1,9 @@
+1.yum update -y
+2.yum install httpd -y
+3.systemctl start httpd
+4.systemctl enable httpd
+5.systemctl status httpd
+6.download free css----->wget
+7.unzip
+8.cd name
+10.cp -r * /var/www/html

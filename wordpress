@@ -1,0 +1,85 @@
+  1  sudo yum install amazon-linux-extras -y
+    2  sudo yum install amazon-linux-extras | grep php
+    3  sudo yum clean metadata
+    4  php -v
+    5  sudo yum install amazon-linux-extras -y
+    6  sudo amazon-linux-extras | grep php
+    7  sudo amazon-linux-extras enable php7.4
+    8  sudo yum clean metadata
+    9  php -v
+   10  sudo yum clean metadata
+   11  sudo yum install php php-common php-pear
+   12  php -v
+   13  sudo yum update -y
+   14  sudo systemctl start httpd
+   15  sudo systemctl enable httpd
+   16  sudo systemctl status httpd
+   17  yum install mysql
+   18  whitch mysql
+   19  yum install mysql
+   20  mysql -h wordpress.cnalqpbalv05.eu-west-3.rds.amazonaws.com -u admin -p
+   21  php -v
+   22  ll
+   23  systemctl status httpd
+   24  cd /var/www/html
+   25  ll
+   26  wget https://wordpress.org/latest.tar.gz
+   27  tar -xvzf latest.tar.gz
+   28  ll
+   29  rm -rf latest.tar.gz
+   30  ll
+   31  cd wordpress/
+   32  ll
+   33  touch wp-config.php
+   34  ll
+   35  cat wp-config.php
+   36  vi wp-config.php
+   37  cat wp-config-sample.php
+   38  vi wp-congig.php
+   39  cd
+   40  cd /var/www/html
+   41  ll
+   42  cd wordpress
+   43  vi wp-config.php
+   44*
+   45  systemctl start httpd
+   46  systemctl status httpd
+   47  php -v
+   48   latest.tar.gz
+   49  whereis latest.tar.gz
+   50  ls -la
+   51  ll
+   52  cd
+   53  vi info.php
+   54  php -v
+   55  echo "<?php phpinfo(); ?>" > /var/www/html/info.php
+   56  http://server-ip/info.php
+   57  vi index.html
+   58  cd wordpress
+   59  cd /var/www/html
+   60  ll
+   61  cd wordpress
+   62  ll
+   63  vi wp-config-sample.php
+   64  cd ..
+   65  vi wp-config-sample.php
+   66  ll
+   67  cd wordpress/
+   68  ll
+   69  vi wp-config-sample.php
+   70  ll
+   71  pwd
+   72  php -v
+   73  yum remove php* -y
+   74  systemctl stop httpd
+   75  history
+   76  mysql -h wordpress.cnalqpbalv05.eu-west-3.rds.amazonaws.com -u admin -p
+   77  telnet wordpress.cnalqpbalv05.eu-west-3.rds.amazonaws.com 3306
+   78  yum install telnet -y
+   79  telnet wordpress.cnalqpbalv05.eu-west-3.rds.amazonaws.com 3306
+   80  systemctl start httpd
+   81  amazon-linux-extras install php7.3 -y
+   82  amazon-linux-extras install php7.4 -y
+   83  systemctl restart hpptd
+   84  systemctl restart httpd
+   85  history
